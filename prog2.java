@@ -1,4 +1,8 @@
-//multiplication  table prog 2
+/*
+	NAME: Shaz Zahra Zaidi
+	Aim : WAP to print a multiplication table
+	UIN: 241P092
+*/
 package sh23packagee;
 
 import java.util.Scanner;
