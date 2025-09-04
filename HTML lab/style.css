@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  /* Sets the font for the entire page to Arial; if unavailable, uses a generic sans-serif font */
+
+  margin: 0;
+  /* Removes default margin around the body */
+
+  padding: 0;
+  /* Removes default padding inside the body */
+
+  background-color: #f9f9f9;
+  /* Sets a light gray background color for the entire page */
+
+  color: #333;
+  /* Sets the default text color to dark gray (almost black) for better readability */
+}
+
+header {
+  background-color: #007acc;
+  /* Sets the header's background color to a medium blue */
+
+  color: white;
+  /* Sets the text color in the header to white */
+
+  padding: 20px;
+  /* Adds 20px padding inside the header for spacing */
+
+  text-align: center;
+  /* Centers the text horizontally within the header */
+}
+
+nav ul {
+  list-style: none;
+  /* Removes default bullet points from the unordered list */
+
+  padding: 0;
+  /* Removes default padding from the list */
+
+  display: flex;
+  /* Uses Flexbox layout for the navigation items */
+
+  justify-content: center;
+  /* Horizontally centers the navigation items */
+
+  margin-top: 10px;
+  /* Adds space above the navigation list */
+}
+
+nav li {
+  margin: 0 15px;
+  /* Adds 15px of horizontal spacing (left and right) between each list item */
+}
+
+nav a {
+  color: white;
+  /* Sets the color of navigation links to white */
+
+  text-decoration: none;
+  /* Removes the underline from links */
+
+  font-weight: bold;
+  /* Makes the link text bold */
+}
+
+main {
+  padding: 20px;
+  /* Adds padding around the main content */
+
+  text-align: center;
+  /* Centers the text in the main section */
+}
+
+button {
+  padding: 10px 20px;
+  /* Adds vertical and horizontal padding inside the button */
+
+  font-size: 16px;
+  /* Sets the font size of the button text */
+
+  cursor: pointer;
+  /* Changes the mouse cursor to a pointer (hand icon) when hovering over the button */
+}
+
+footer {
+  background-color: #eee;
+  /* Sets the footer background color to light gray */
+
+  text-align: center;
+  /* Centers the footer text */
+
+  padding: 15px;
+  /* Adds padding inside the footer */
+
+  margin-top: 40px;
+  /* Adds space above the footer to separate it from the content above */
+}

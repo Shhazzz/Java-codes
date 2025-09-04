@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- Declares the document type and version of HTML (HTML5 in this case) -->
+
+<html lang="en">
+<!-- Opens the HTML document and sets the language to English -->
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- Sets the character encoding to UTF-8, which supports most characters from all languages -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Ensures the website is responsive by setting the viewport to match the device's width -->
+
+  <title>My Static Website</title>
+  <!-- Sets the title of the web page that appears in the browser tab -->
+
+  <link rel="stylesheet" href="style.css" />
+  <!-- Links an external CSS file (style.css) to style the HTML content -->
+</head>
+
+<body>
+  <!-- Opens the body tag, which contains all the visible content of the webpage -->
+
+  <header>
+    <!-- Header section of the page, typically includes logo, site title, navigation -->
+
+    <h1>Welcome to My Static Website</h1>
+    <!-- Main heading of the page -->
+
+    <nav>
+      <!-- Navigation section -->
+
+      <ul>
+        <!-- Unordered list for navigation links -->
+        <li><a href="#">Home</a></li>
+        <!-- List item with a link to "Home" (currently points to #, which means no actual page) -->
+        <li><a href="#">About</a></li>
+        <!-- Link to "About" section -->
+        <li><a href="#">Contact</a></li>
+        <!-- Link to "Contact" section -->
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Main content of the web page -->
+
+    <section>
+      <!-- A section element used to group related content -->
+
+      <h2>Hello, Dear Student!</h2>
+      <!-- Subheading inside the section -->
+
+      <p>This is a sample static website built using HTML, CSS, and JavaScript.</p>
+      <!-- A paragraph describing the purpose of the site -->
+
+      <button onclick="showMessage()">Click Me</button>
+      <!-- A button that triggers the JavaScript function `showMessage()` when clicked -->
+
+      <p id="message"></p>
+      <!-- An empty paragraph where a message will be displayed by JavaScript -->
+    </section>
+  </main>
+
+  <footer>
+    <!-- Footer section of the page -->
+
+    <p>© 2025 Shaikh Mohd Ashfaque</p>
+    <!-- Copyright information -->
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- Links an external JavaScript file (script.js) to add interactivity -->
+</body>
+
+</html>
+<!-- Closes the HTML document -->
