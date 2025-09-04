@@ -11,18 +11,18 @@ body {
   background-color: #f9f9f9;
   /* Sets a light gray background color for the entire page */
 
-  color: #333;
+  color: #334;
   /* Sets the default text color to dark gray (almost black) for better readability */
 }
 
 header {
-  background-color: #007acc;
+  background-color: #cccccc;
   /* Sets the header's background color to a medium blue */
 
-  color: white;
+  color: black;
   /* Sets the text color in the header to white */
 
-  padding: 20px;
+  padding: 30px;
   /* Adds 20px padding inside the header for spacing */
 
   text-align: center;
@@ -52,7 +52,7 @@ nav li {
 }
 
 nav a {
-  color: white;
+  color: purple;
   /* Sets the color of navigation links to white */
 
   text-decoration: none;
@@ -71,10 +71,10 @@ main {
 }
 
 button {
-  padding: 10px 20px;
+  padding: 20px 25px;
   /* Adds vertical and horizontal padding inside the button */
 
-  font-size: 16px;
+  font-size: 20px;
   /* Sets the font size of the button text */
 
   cursor: pointer;
@@ -82,7 +82,7 @@ button {
 }
 
 footer {
-  background-color: #eee;
+  background-color: #555555;
   /* Sets the footer background color to light gray */
 
   text-align: center;
